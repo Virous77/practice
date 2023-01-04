@@ -4,7 +4,7 @@ import { yogas } from "../utils/data";
 import { RxCross1 } from "react-icons/rx";
 
 const Project = () => {
-  const [info, setInfo] = useState(yogas[0]);
+  const [info, setInfo] = useState("");
 
   return (
     <>
